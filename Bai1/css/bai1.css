@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: auto;
+    background-image: linear-gradient(to bottom, #29defa, #51a6e7);
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    border-bottom: 8px dotted #fff;
+}
+
+.header-content{
+    display: flex;
+    width: 87%;
+}
+
+.header-link{
+    margin: 20px 30px 20px 30px;
+    font-weight: bold;
+}
+
+.link-header{
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo-wrapper{
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 30px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 0px 20px #0000ff;
+}
+
+.content{
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.content-left{
+    width: 50%;
+    margin-left: 10px;
+    height: auto;
+}
+
+.block-1-title h2{
+    font-size: 35px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.block-1-content p{
+    margin-top: 30px;
+    margin-right: 40px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: auto;
+}
+
+.block-2{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.form-content{
+    list-style: none;
+}
+
+.form-text{
+    color: #fff;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box{
+    border-radius: 5px;
+    width: 400px;
+}
+
+.block-1-but button{
+    border: 2px dotted #000;
+    border-radius: 5px;
+}
+
+.content-right{
+    width: 50%;
+    margin-right: 10px;
+}
+
+.content-right-img{
+    width: 600px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.img-right{
+    width: 600px;
+    height: auto;
+}
+
+.content-right-title{
+    width: 400px;
+    margin: 10px auto;
+}
+
+.content-right-title h2{
+    font-size: 35px;
+    color: #0000ff;
+    text-shadow: 2px 3px 0px #0000ff;
+}
+
+.text-right{
+    color: #0000ff;
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.footer-text{
+    padding-top: 40px;
+    text-align: center;
+    border-top: 8px dotted #fff;
+    margin-bottom: 20px;
+}
+
+.text-footer{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
